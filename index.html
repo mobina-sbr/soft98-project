@@ -25,23 +25,23 @@
         <i class="bi bi-pause pause"></i>
         <p class="ptext">اطلاعیه</p>
       </div>
-      <div class="ul-li">
-        <ul>
+      <div class="ul-li mt-3">
+        <!-- <ul>
           <li>نرم افزارهایی که به همراه <b>کرک</b>، <b>سریال</b> یا <b>Patch</b> در سایت قرار داده میشوند، اکثرا در صورت
             اتصال به اینترنت <b>غیرفعال میشوند</b>. برای جلوگیری از ارتباط نرم افزارهایی که به اینترنت<b> نیاز
               ندارند</b>، از نرم افزار <a href="https://soft98.ir/security/firewall/14349-windows-firewall-control.html"
               rel="noopener noreferrer" target="_blank"><b class="text-danger">Windows Firewall Control</b></a> استفاده
             کنید تا در استفاده از نرم افزارها ، آپدیت خودکار آنها و یا مصرف پهنای باند اینترنت دچار مشکل نشوید.</li>
         </ul>
-        <hr>
-        <ul>
+        <hr> -->
+        <!-- <ul>
           <li>برای راحتی در دانلود فایل ها و دانلود با سرعت بالا ، از نرم افزار های مدیریت دانلود مانند <a
               href="https://soft98.ir/internet/download-manager/14961-free-download-manager.html"
               rel="noopener noreferrer" target="_blank"><b>FDM</b></a> یا <a
               href="https://soft98.ir/internet/download-manager/4-idm-full-dl.html" rel="noopener noreferrer"
               target="_blank"><b>IDM</b></a> استفاده کنید.</li>
         </ul>
-        <hr>
+        <hr> -->
         <ul>
           <li>بعلت مشکل امنیتی در ورژن های قدیمی نرم افزار <a class="text-danger" target="_blank"
               href="https://soft98.ir/software/compress/21-winrar-full.html"><b>Winrar</b></a> ، در صورت تمایل نرم افزار
@@ -58,21 +58,23 @@
               شکایت</b> : عدم رعایت تعرفه ترافیک داخل و بین المللی<br></li>
         </ul>
       </div>
-      <div class="footer-popup">
+      <div class="footer-popup py-4 text-center align-items-center">
         <button class="btn-footer">متوجه شدم</button>
       </div>
     </div>
   </div>
   <div class="popupholder-2">
     <div class="popup-2">
-      <div class="head head-2">
-        <i class="bi bi-pause pause"></i>
-        <p class="ptext">ورود به سایت</p>
+      <div class="head head-2 px-2 align-items-center">
+        <div class="d-flex">
+          <i class="bi bi-pause pause"></i>
+          <p class="ptext">ورود به سایت</p>
+        </div>
         <a href="#" class="spn-pop">
           <span>×</span>
         </a>
       </div>
-      <form class="form-pop">
+      <form class="form-pop px-3 pb-3">
         <div>
           <label for="name">نام کاربری</label>
           <div class="inp-per">
@@ -81,9 +83,9 @@
           </div>
         </div>
         <div>
-          <div class="password">
-            <label for="pass" class="mt-3">رمز عبور</label>
-            <a href="#" class="forget-pass mt-3">رمزم را فراموش کردم</a>
+          <div class="password d-flex mt-1">
+            <label for="pass">رمز عبور</label>
+            <a href="#" class="forget-pass">رمزم را فراموش کردم</a>
           </div>
           <img src="images/key.png" alt="" class="key">
           <input type="password" name="pass" id="pass">
@@ -96,7 +98,6 @@
       </div>
     </div>
   </div>
-
 
   <header>
     <!--menu-->
@@ -115,7 +116,7 @@
             <li class="nav-item hover">
               <a class="nav-link active alist" data-toggle="dropdown" aria-current="page" href="#">خانه</a>
             </li>
-            <li class="nav-item hover">
+            <li class="nav-item  hover">
               <a class="nav-link active alist-2" href="#">سیستم عامل
                 <svg xmlns="http://www.w3.org/2000/svg" width="8" height="15" color="#7bad49" fill="currentColor"
                   class="bi bi-caret-down-fill down downs" viewBox="0 0 16 16">
@@ -869,54 +870,58 @@
     </nav>
   </header>
 
-  <section class="container aphoto ">
-    <div class="align-items-center">
-      <div class="row photoo">
-        <div class="col-lg-3 offset-2 ">
-          <a href="#">
-            <img src="images/20221227_140508.png" alt="" class="img-fluid mt-1 soft-icon-2">
-          </a>
+  <section class="container aphoto pt-5">
+    <div class="row align-items-center gif mt-5">
+      <div class="col-lg-5  ">
+        <a href="#">
+          <img src="images/20221227_140508.png" alt="" class="img-fluid mt-1 ">
+        </a>
+      </div>
+      <div class="col-lg-7 ">
+        <a href="#">
+          <img src="images/gif/iranicard2 (1).gif" alt="" class="img-fluid rounded">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container box pb-4">
+    <div class=" align-items-center mt-3 row">
+      <div class="col-lg-6">
+        <div class="row ">
+          <div class="col-lg-6">
+            <div class=" b-solid">
+              <a href="#" class="atx">
+                <img src="images/icons8-imac-50.png" style="width: 17px;" alt="" class="mx-3">
+                مطالب نرم افزار
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="atext b-solid-2">
+              <a href="#" class="atx">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mx-3" style="color: #7bad49;" width="16" height="16"
+                  fill="currentColor" class="bi bi-android2" viewBox="0 0 16 16">
+                  <path
+                    d="m10.213 1.471.691-1.26c.046-.083.03-.147-.048-.192-.085-.038-.15-.019-.195.058l-.7 1.27A4.832 4.832 0 0 0 8.005.941c-.688 0-1.34.135-1.956.404l-.7-1.27C5.303 0 5.239-.018 5.154.02c-.078.046-.094.11-.049.193l.691 1.259a4.25 4.25 0 0 0-1.673 1.476A3.697 3.697 0 0 0 3.5 5.02h9c0-.75-.208-1.44-.623-2.072a4.266 4.266 0 0 0-1.664-1.476ZM6.22 3.303a.367.367 0 0 1-.267.11.35.35 0 0 1-.263-.11.366.366 0 0 1-.107-.264.37.37 0 0 1 .107-.265.351.351 0 0 1 .263-.11c.103 0 .193.037.267.11a.36.36 0 0 1 .112.265.36.36 0 0 1-.112.264Zm4.101 0a.351.351 0 0 1-.262.11.366.366 0 0 1-.268-.11.358.358 0 0 1-.112-.264c0-.103.037-.191.112-.265a.367.367 0 0 1 .268-.11c.104 0 .19.037.262.11a.367.367 0 0 1 .107.265c0 .102-.035.19-.107.264ZM3.5 11.77c0 .294.104.544.311.75.208.204.46.307.76.307h.758l.01 2.182c0 .276.097.51.292.703a.961.961 0 0 0 .7.288.973.973 0 0 0 .71-.288.95.95 0 0 0 .292-.703v-2.182h1.343v2.182c0 .276.097.51.292.703a.972.972 0 0 0 .71.288.973.973 0 0 0 .71-.288.95.95 0 0 0 .292-.703v-2.182h.76c.291 0 .54-.103.749-.308.207-.205.311-.455.311-.75V5.365h-9v6.404Zm10.495-6.587a.983.983 0 0 0-.702.278.91.91 0 0 0-.293.685v4.063c0 .271.098.501.293.69a.97.97 0 0 0 .702.284c.28 0 .517-.095.712-.284a.924.924 0 0 0 .293-.69V6.146a.91.91 0 0 0-.293-.685.995.995 0 0 0-.712-.278Zm-12.702.283a.985.985 0 0 1 .712-.283c.273 0 .507.094.702.283a.913.913 0 0 1 .293.68v4.063a.932.932 0 0 1-.288.69.97.97 0 0 1-.707.284.986.986 0 0 1-.712-.284.924.924 0 0 1-.293-.69V6.146c0-.264.098-.491.293-.68Z" />
+                </svg>
+                مطالب انروید
+              </a>
+            </div>
+          </div>
         </div>
-        <div class="col-lg-7 ">
-          <a href="#" class="gif-size">
-            <img src="images/gif/iranicard2 (1).gif" alt="" class="img-fluid rounded gif ggg">
+      </div>
+      <div class="col-lg-6">
+        <div class="b-solid-3">
+          <a href="#" class="atx-2">
+            <i class="bi bi-newspaper mx-3" style="color: #5c5c5c;"></i>
+            خبرهای تکنولوژی
           </a>
         </div>
       </div>
     </div>
-    <div class="box align-items-center mt-3 row ">
-      <div class="row-1">
-        <div class="col-lg-3">
-          <div class="atext b-solid">
-            <a href="#" class="atx">
-              <img src="images/icons8-imac-50.png" style="width: 17px;" alt="" class="mx-3">
-              مطالب نرم افزار
-            </a>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="atext b-solid-2">
-            <a href="#" class="atx">
-              <svg xmlns="http://www.w3.org/2000/svg" class="mx-3" style="color: #7bad49;" width="16" height="16"
-                fill="currentColor" class="bi bi-android2" viewBox="0 0 16 16">
-                <path
-                  d="m10.213 1.471.691-1.26c.046-.083.03-.147-.048-.192-.085-.038-.15-.019-.195.058l-.7 1.27A4.832 4.832 0 0 0 8.005.941c-.688 0-1.34.135-1.956.404l-.7-1.27C5.303 0 5.239-.018 5.154.02c-.078.046-.094.11-.049.193l.691 1.259a4.25 4.25 0 0 0-1.673 1.476A3.697 3.697 0 0 0 3.5 5.02h9c0-.75-.208-1.44-.623-2.072a4.266 4.266 0 0 0-1.664-1.476ZM6.22 3.303a.367.367 0 0 1-.267.11.35.35 0 0 1-.263-.11.366.366 0 0 1-.107-.264.37.37 0 0 1 .107-.265.351.351 0 0 1 .263-.11c.103 0 .193.037.267.11a.36.36 0 0 1 .112.265.36.36 0 0 1-.112.264Zm4.101 0a.351.351 0 0 1-.262.11.366.366 0 0 1-.268-.11.358.358 0 0 1-.112-.264c0-.103.037-.191.112-.265a.367.367 0 0 1 .268-.11c.104 0 .19.037.262.11a.367.367 0 0 1 .107.265c0 .102-.035.19-.107.264ZM3.5 11.77c0 .294.104.544.311.75.208.204.46.307.76.307h.758l.01 2.182c0 .276.097.51.292.703a.961.961 0 0 0 .7.288.973.973 0 0 0 .71-.288.95.95 0 0 0 .292-.703v-2.182h1.343v2.182c0 .276.097.51.292.703a.972.972 0 0 0 .71.288.973.973 0 0 0 .71-.288.95.95 0 0 0 .292-.703v-2.182h.76c.291 0 .54-.103.749-.308.207-.205.311-.455.311-.75V5.365h-9v6.404Zm10.495-6.587a.983.983 0 0 0-.702.278.91.91 0 0 0-.293.685v4.063c0 .271.098.501.293.69a.97.97 0 0 0 .702.284c.28 0 .517-.095.712-.284a.924.924 0 0 0 .293-.69V6.146a.91.91 0 0 0-.293-.685.995.995 0 0 0-.712-.278Zm-12.702.283a.985.985 0 0 1 .712-.283c.273 0 .507.094.702.283a.913.913 0 0 1 .293.68v4.063a.932.932 0 0 1-.288.69.97.97 0 0 1-.707.284.986.986 0 0 1-.712-.284.924.924 0 0 1-.293-.69V6.146c0-.264.098-.491.293-.68Z" />
-              </svg>
-              مطالب انروید
-            </a>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="b-solid-3">
-            <a href="#" class="atx-2">
-              <i class="bi bi-newspaper mx-3" style="color: #5c5c5c;"></i>
-              خبرهای تکنولوژی
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row box box-2">
+
+    <div class="row box-2">
       <div class="col-lg-6 border-l">
         <div class="ap">
           <a href="#" class="hvr">
@@ -1126,74 +1131,86 @@
         </div>
       </div>
     </div>
-    <div class="box-3">
-      <div class="box-3-1 rounded">
-        <div class="apic">
-          <div>
-            <a href="#">
-              <img src="images/a1.jpg" alt="" class="img-fluid">
-              <p class="mt-2">توانایی حل مساله داری؟</p>
-            </a>
-          </div>
-          <div>
-            <a href="#">
-              <img src="images/gif/63a6bd399fd9c.gif" alt="" class="img-fluid">
-              <p class="mt-2">هایپر امنیت آریو: دوربین مداربسته</p>
-            </a>
-          </div>
-          <div>
-            <a href="#">
-              <img src="images/a4.jpg" alt="" class="img-fluid">
-              <p class="mt-2">حصار ترس از سخنرانی رو بشکن!</p>
-            </a>
-          </div>
-          <div>
-            <a href="#">
-              <img src="images/a6.jpg" alt="" class="img-fluid">
-              <p class="mt-2">پرسرعت‌ترین هاست فروشگاهی</p>
-            </a>
-          </div>
-          <div>
-            <a href="#">
-              <img src="images/a8.jpg" alt="" class="img-fluid">
-              <p class="mt-2">لذت استفاده از سرور مجازی کانادا</p>
-            </a>
-          </div>
+
+    <div class="box-3-1 rounded mt-5">
+      <div class="apic row  p-4">
+        <div class="col-md-2">
+          <a href="#">
+            <img src="images/gif/63a6bd399fd9c.gif" alt="" class="img-fluid">
+            <p class="mt-2">هایپر امنیت آریو: دوربین مداربسته</p>
+          </a>
         </div>
-        <div class="apic">
-          <div>
-            <a href="#">
-              <img src="images/a2.jpg" alt="" class="img-fluid">
-              <p class="mt-2">آموزش نقاشی - آبرنگ، سیاه قلم</p>
-            </a>
-          </div>
-          <div>
-            <a href="#">
-              <img src="images/a3.gif" alt="" class="img-fluid">
-              <p class="mt-2">ست‌های جذاب مردانه</p>
-            </a>
-          </div>
-          <div>
-            <a href="#">
-              <img src="images/gif/63a6c16d38147.gif" alt="" class="img-fluid">
-              <p class="mt-2">برای ثبت نام کلیک کنید</p>
-            </a>
-          </div>
-          <div>
-            <a href="#">
-              <img src="images/a7.jpg" alt="" class="img-fluid">
-              <p class="mt-2">همین حالا از تخفیف استفاده کنید</p>
-            </a>
-          </div>
-          <div>
-            <a href="#">
-              <img src="images/a9.jpg" alt="" class="img-fluid">
-              <p class="mt-2">آموزش کنترل استرس- کلیک کنید</p>
-            </a>
-          </div>
+        <div class="col-md-2">
+          <a href="#">
+            <img src="images/gif/63a6bd399fd9c.gif" alt="" class="img-fluid">
+            <p class="mt-2">هایپر امنیت آریو: دوربین مداربسته</p>
+          </a>
+        </div>
+        <div class="col-md-2">
+          <a href="#">
+            <img src="images/a4.jpg" alt="" class="img-fluid">
+            <p class="mt-2">حصار ترس از سخنرانی رو بشکن!</p>
+          </a>
+        </div>
+        <div class="col-md-2">
+          <a href="#">
+            <img src="images/a6.jpg" alt="" class="img-fluid">
+            <p class="mt-2">پرسرعت‌ترین هاست فروشگاهی</p>
+          </a>
+        </div>
+        <div class="col-md-2 ">
+          <a href="#">
+            <img src="images/a8.jpg" alt="" class="img-fluid">
+            <p class="mt-2">لذت استفاده از سرور مجازی کانادا</p>
+          </a>
+        </div>
+        <div class="col-md-2">
+          <a href="#">
+            <img src="images/gif/63a6bd399fd9c.gif" alt="" class="img-fluid">
+            <p class="mt-2">هایپر امنیت آریو: دوربین مداربسته</p>
+          </a>
+        </div>
+      </div>
+      <div class="apic row p-4">
+        <div class="col-md-2">
+          <a href="#">
+            <img src="images/a2.jpg" alt="" class="img-fluid">
+            <p class="mt-2">آموزش نقاشی - آبرنگ، سیاه قلم</p>
+          </a>
+        </div>
+        <div class="col-md-2">
+          <a href="#">
+            <img src="images/a3.gif" alt="" class="img-fluid">
+            <p class="mt-2">ست‌های جذاب مردانه</p>
+          </a>
+        </div>
+        <div class="col-md-2">
+          <a href="#">
+            <img src="images/gif/63a6bd399fd9c.gif" alt="" class="img-fluid">
+            <p class="mt-2">هایپر امنیت آریو: دوربین مداربسته</p>
+          </a>
+        </div>
+        <div class="col-md-2">
+          <a href="#">
+            <img src="images/gif/63a6c16d38147.gif" alt="" class="img-fluid">
+            <p class="mt-2">برای ثبت نام کلیک کنید</p>
+          </a>
+        </div>
+        <div class="col-md-2">
+          <a href="#">
+            <img src="images/a7.jpg" alt="" class="img-fluid">
+            <p class="mt-2">همین حالا از تخفیف استفاده کنید</p>
+          </a>
+        </div>
+        <div class="col-md-2">
+          <a href="#">
+            <img src="images/a9.jpg" alt="" class="img-fluid">
+            <p class="mt-2">آموزش کنترل استرس- کلیک کنید</p>
+          </a>
         </div>
       </div>
     </div>
+
     <div class="box-4">
       <div class="rounded">
         <div class="row">
@@ -1205,9 +1222,9 @@
                   آسیاتک
                 </h6>
               </div>
-              <div class="img-gif">
+              <div class="img-gif align-items-center text-center mt-1">
                 <a href="#">
-                  <img src="images/gif/soft98.gif" alt="" class="rounded">
+                  <img src="images/gif/soft98.gif" alt="" class="rounded img-fluid">
                 </a>
               </div>
             </div>
@@ -1377,7 +1394,7 @@
                 </div>
               </div>
               <hr>
-              <!-- <div class="tabliqat">
+              <div class="tabliqat">
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -1425,25 +1442,27 @@
                     <span class="visually-hidden">Next</span>
                   </button>
                 </div>
-              </div> -->
-              <!-- <hr> -->
-              <div class="last-t">
-                <img src="images/tabliq.gif" alt="" class="rounded">
               </div>
-              <div class="last-t">
-                <img src="images/gif/zula.gif" alt="" class="rounded">
-              </div>
-              <div class="last-t">
-                <img src="images/gif/63a6bd399fd9c.gif" alt="" class="rounded">
-              </div>
-              <div class="last-t">
-                <img src="images/tabliq.gif" alt="" class="rounded">
-              </div>
-              <div class="last-t">
-                <img src="images/gif/63a6c16d38147.gif" alt="" class="rounded">
-              </div>
-              <div class="last-t last-p">
-                <img src="images/gif/63a6bd399fd9c.gif" alt="" class="rounded">
+              <hr>
+              <div class="align-items-center add">
+                <div class="mt-3">
+                  <img src="images/tabliq.gif" alt="" class="rounded img-fluid">
+                </div>
+                <div class="mt-3">
+                  <img src="images/gif/zula.gif" alt="" class="rounded img-fluid">
+                </div>
+                <div class="mt-3">
+                  <img src="images/gif/63a6bd399fd9c.gif" alt="" class="rounded img-fluid">
+                </div>
+                <div class="mt-3">
+                  <img src="images/tabliq.gif" alt="" class="rounded img-fluid">
+                </div>
+                <div class="mt-3">
+                  <img src="images/gif/63a6c16d38147.gif" alt="" class="rounded img-fluid">
+                </div>
+                <div class="mt-3">
+                  <img src="images/gif/63a6bd399fd9c.gif" alt="" class="rounded img-fluid">
+                </div>
               </div>
             </div>
           </div>
@@ -1481,7 +1500,7 @@
                   استفاده غیر مجاز از برنامه های شخصی، خاموش کردن خودکار کامپیوتر، آزاد کردن مموری و ... بخشی از
                   امکاناتی است که این نرم افزار در اختیار کاربران قرار می دهد.
                 </p>
-                <img src="images/Wise Care.png" alt="" class="mt-3">
+                <img src="images/Wise Care.png" alt="" class="mt-3 img-fluid">
               </div>
               <div class="box-footer">
                 <a href="#" class="me-3 rounded">
@@ -1710,20 +1729,20 @@
                     <span class="span-3 spn">2</span>
                   </a>
                   <a href="#">
-                    <span class="span-4 spn">3</span>
+                    <span class="span-3 spn">3</span>
                   </a>
                   <a href="#">
-                    <span class="span-5 spn">4</span>
+                    <span class="span-3 spn">4</span>
                   </a>
                   <a href="#">
-                    <span class="span-6 spn">5</span>
+                    <span class="span-3 spn">5</span>
                   </a>
                   <a href="#">
-                    <span class="span-7 spn">6</span>
+                    <span class="span-3 spn">6</span>
                   </a>
-                  <span class="span-8">...</span>
+                  <span class="span-3">...</span>
                   <a href="#">
-                    <span class="span-9 spn">938</span>
+                    <span class="span-3 spn">938</span>
                   </a>
                   <a href="#">
                     <span class="span-10 spn">صفحه بعد</span>
@@ -1736,13 +1755,15 @@
       </div>
     </div>
   </section>
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-  <footer class="footer-end">
+
+  <footer class="footer-end mt-5">
     <div>
-      <p>۱۴۰۱ - ۱۳۸۹ © طبق ماده 12 فصل سوم قانون جرائم رایانه‌ای هرگونه کپی برداری از طرح قالب، مطالب و فایل‌های تارنمای
+      <p>۱۴۰۱ - ۱۳۸۹ © طبق ماده 12 فصل سوم قانون جرائم رایانه‌ای هرگونه کپی برداری از طرح قالب، مطالب و
+        فایل‌های تارنمای
         سافت‌ ٩٨ به هر نحو، پیگرد قانونی دارد</p>
       <p>استفاده از مطالب سافت ٩٨ به هر نحو، تنها با کسب اجازه کتبی از مدیریت امکانپذیر می‌باشد</p>
-      <p class="a-p">سافت ٩٨ توسط <a href="#">هاست دی ال</a> و به روی سرورهای <a href="#">آسیاتکـ</a> پشتیبانی می‌شود و
+      <p class="a-p">سافت ٩٨ توسط <a href="#">هاست دی ال</a> و به روی سرورهای <a href="#">آسیاتکـ</a> پشتیبانی
+        می‌شود و
         دارای <a href="#">ترافیک نیمبها</a> می‌باشد</p>
     </div>
     <div class="footer-menu rounded">
